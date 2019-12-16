@@ -1,0 +1,1 @@
+include ':starterApp', ':finalApp', ':halfWayApp'

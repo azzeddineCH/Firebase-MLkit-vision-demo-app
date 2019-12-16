@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MySmartApp</string>
+    <string name="face_detection">detect face</string>
+    <string name="text_recognition">recognize text</string>
+    <string name="image_labeling">label images</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
