@@ -19,7 +19,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <GraphicOverlay
+    <gdg.workshop.finalapp.graphics.GraphicOverlay
         android:id="@+id/graphic_overlay"
         android:layout_width="fill_parent"
         android:layout_height="400dp"

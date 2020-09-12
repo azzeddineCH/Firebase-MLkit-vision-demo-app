@@ -1,5 +1,7 @@
 package gdg.workshop.finalapp.fragments;
 
+import android.util.Log;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
 import androidx.fragment.app.Fragment;
@@ -51,7 +53,7 @@ public abstract class VisionFragment<T> extends Fragment implements FrameProcess
     @WorkerThread
     public void process(@NonNull Frame frame) {
 
-
+        Log.d("TAG", "process: "+frame);
         try {
 
             Tasks.await(analyze(getImageFromFrame(frame)));

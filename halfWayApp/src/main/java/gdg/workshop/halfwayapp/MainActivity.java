@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
 
     public static final String TAG = "MainActivity";
 
-    private VisionFragment fragment = new FaceDetectionFragment();
+    private VisionFragment fragment = new TextRecognitionFragment();
 
 
     @Override
